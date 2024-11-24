@@ -1,0 +1,11 @@
+1. Os testes desenvolvidos são manuais ou automatizados?
+
+Os testes são automatizados, pois utilizam scripts no Postman para verificar as respostas das requisições.
+
+2. Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+
+Os testes desenvolvidos não são End-To-End (E2E) no contexto completo de um fluxo de sistema. Eles se concentram em operações individuais, como GET, PUT e DELETE, verificando a funcionalidade isolada dos endpoints da API.
+
+3. O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+
+Para que os testes funcionem em modo regressão, eles devem ser executados automaticamente em um ambiente de CI/CD sempre que houver alterações no código.
